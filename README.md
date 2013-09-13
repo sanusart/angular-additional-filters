@@ -8,24 +8,24 @@ This is small, growing collection of additional [AngularJS](http://angularjs.org
 
 ####joinBy
    
-    {{array | joinBy : " | "}}
+    {{ array | joinBy : " | " }}
 
 Add defined separator between members of outputed array. 
 
 ####removeFirst
 
-    {{string | removeFirst }}
+    {{ string | removeFirst }}
 
 Remove first character from string
 
 ####removeLast
 
-    {{string | removeLast }}
+    {{ string | removeLast }}
     
 Remove last character from string
 
 ####truncate
 
-    {{string | truncate : 10 : '...'}}
+    {{ string | truncate : 10 : '...' }}
 
 Truncate string to defined lenght and append defined string at the end of the truncation.
