@@ -10,22 +10,28 @@ This is small, growing collection of additional [AngularJS](http://angularjs.org
    
     {{ array | joinBy : " | " }}
 
-Add defined separator between members of outputed array. 
+_Add defined separator between members of outputed array._ 
 
 ####removeFirst
 
     {{ string | removeFirst }}
 
-Remove first character from string
+_Remove first character from string_
 
 ####removeLast
 
     {{ string | removeLast }}
     
-Remove last character from string
+_Remove last character from string_
 
 ####truncate
 
     {{ string | truncate : 10 : '...' }}
 
-Truncate string to defined lenght and append defined string at the end of the truncation.
+_Truncate string to defined length and append defined string at the end of the truncation._
+
+####stripHtmlTags
+
+    {{ string | stripHtmlTags }}
+
+_Strip all HTML tags including from a string._
