@@ -28,7 +28,7 @@ angular.module('App.filters', [])
             }
             return input;
         }
-    }).filter('kCurrency', function () {
+    }).filter('kCurrency', ['$locale', function ($locale) {
         
         /**
          * Custom Currency Filter
@@ -107,4 +107,4 @@ angular.module('App.filters', [])
         }
 
 
-    });
+    }]);
